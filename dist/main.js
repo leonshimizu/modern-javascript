@@ -15,7 +15,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("console.log(\"Hello from JS\");\n\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nconsole.log(moment().format('MMMM Do YYYY, h:mm:ss a'));\n\n// const darkmode = new Darkmode();\n// darkmode.toggle();\n// console.log(darkmode.isActivated()); // will return true\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
+eval("console.log(\"Hello from JS\");\n\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nconsole.log(moment().format('MMMM Do YYYY, h:mm:ss a'));\nconsole.log(moment().subtract(10, 'days').calendar()); // const darkmode = new Darkmode();\n// darkmode.toggle();\n// console.log(darkmode.isActivated()); // will return true\n\nvar name = \"Bob\";\nconsole.log(\"Hello World - from \".concat(name));\nconsole.log(\"Hello \".concat(name, \", right now it is \").concat(moment().format('MMMM Do YYYY, h:mm:ss a')));\nconsole.log(\"TEST\");\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
 
 /***/ }),
 
